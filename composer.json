@@ -1,0 +1,21 @@
+{
+    "name": "haveyb/laravel-redis-helper",
+    "description": "This is a composer package to assist using redis in the laravel framework",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haveyb",
+            "email": "haveyb@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "haveyb\\RedisHelper\\":"./src/"
+        }
+    }
+}
