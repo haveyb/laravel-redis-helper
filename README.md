@@ -1,4 +1,4 @@
-###Laravel 框架使用 Redis 辅助文件
+Laravel 框架使用 Redis 辅助文件
 
 　　由于Laravel 中使用 redis 采用的是门面模式，并且引用的是phpredis，在Laravel 框架中并没有redis的相关方法，这样就导致对于 Redis 操作不熟悉的人，可能就不知道都有什么命令，该如何操作了。
 
